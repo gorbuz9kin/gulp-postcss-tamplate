@@ -15,6 +15,7 @@ var sourcemaps = require('gulp-sourcemaps');
 var cssnext = require('postcss-cssnext');
 var precss = require('precss');
 var short = require('postcss-short');
+var stripCssComments = require('gulp-strip-css-comments');
 
 /* Plugin for JS */
 var notify = require("gulp-notify");
@@ -78,6 +79,7 @@ gulp.task('css', function () {
         .pipe(sourcemaps.init())
         .pipe(postcss(processors))
         .pipe(remember('css'))
+        .pipe(stripCssComments({preserve: false}))
         .pipe(sourcemaps.write(''))
         .pipe(gulp.dest('./build/css'))
         .pipe(reload({stream: true}));

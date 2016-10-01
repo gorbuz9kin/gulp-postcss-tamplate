@@ -23,15 +23,14 @@
     "gulp-remember": "^0.3.1",
     "gulp-rigger": "^0.5.8",
     "gulp-sourcemaps": "^1.6.0",
+    "gulp-strip-css-comments": "^1.2.0",
     "gulp-style-inject": "0.0.3",
     "gulp-uglify": "^2.0.0",
     "gulp-watch": "^4.3.10",
     "imagemin-pngquant": "^5.0.0",
     "postcss-cssnext": "^2.8.0",
-    "postcss-inline-comment": "^3.0.0",
     "postcss-scss": "^0.3.0",
     "postcss-short": "^1.4.0",
-    "postcss-strip-inline-comments": "^0.1.5",
     "precss": "^1.4.0"
   },
   "dependencies": {}
