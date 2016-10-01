@@ -6,3 +6,6 @@ node_modules/
 
 #Remove folder .idea:
 .idea/
+
+#Remove folder vendor:
+src/vendor/
