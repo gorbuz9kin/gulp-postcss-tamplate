@@ -1,0 +1,8 @@
+#Remove folder build:
+build/
+
+#Remove folder node_modules:
+node_modules/
+
+#Remove folder .idea:
+.idea/

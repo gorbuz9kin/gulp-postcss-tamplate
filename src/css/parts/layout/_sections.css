@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333 #ededed;
+}
+main {
+    size: 900px 400px;
+    padding: * 40px;
+    color: #333 #fff;
+    border: 1px solid #333;
+    border-radius: 10px;
+    h1 {
+        text: dimgrey bold center uppercase 2.25rem 3 0.7em;
+        margin: 0;
+        padding: 0;
+        size: 800px *;
+    }
+    p {
+        margin: 10px *;
+        & span {
+            font-weight: bold;
+        }
+    }
+}
+ul {
+    padding: * 20px;
+    li {
+        padding: * 10px;
+        a {
+            color: cornflowerblue;
+            @mixin transition;
+            &:hover {
+                color: color(blue blackness(40%));
+            }
+        }
+    }
+}

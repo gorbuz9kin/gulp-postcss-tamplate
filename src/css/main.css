@@ -1,0 +1,46 @@
+/*
+* Add Bootstrap
+*/
+@import "../vendor/bootstrap/dist/css/bootstrap.css";
+
+/*
+* Add variables
+*/
+@import "parts/base/variables";
+
+/*
+* Add mixins
+*/
+@import "parts/base/mixins";
+
+/*
+* Add fonts
+*/
+@import "parts/base/fonts";
+@import "../vendor/font-awesome/css/font-awesome.css";
+
+/*
+* Add base style
+*/
+@import "parts/base/base";
+
+/*
+* Add style of header
+*/
+@import "parts/layout/header";
+
+/*
+* Add style of sections
+*/
+@import "parts/layout/sections";
+
+/*
+* Add style of footer
+*/
+@import "parts/layout/footer";
+
+
+/*
+* Add media rules
+*/
+@import "parts/media/media";

@@ -1,0 +1,38 @@
+@import "variables";
+
+
+@define-mixin transition {
+	transition: all 0.5s ease-in-out;
+}
+
+
+@define-mixin placeholder {
+&::-webkit-input-placeholder {
+	color: $color-pl;
+	opacity: $opacity-pl;
+	font-size: $font-size-pl;
+	font-family: $font-family-pl;
+	text-transform: none;
+ }
+&:-moz-placeholder {
+	color: $color-pl;
+	opacity: $opacity-pl;
+	font-size: $font-size-pl;
+	font-family: $font-family-pl;
+	text-transform: none;
+ }
+&::-moz-placeholder {
+	color: $color-pl;
+	opacity: $opacity-pl;
+	font-size: $font-size-pl;
+	font-family: $font-family-pl;
+	text-transform: none;
+ }
+&:-ms-input-placeholder {
+	color: $color-pl;
+	opacity: $opacity-pl;
+	font-size: $font-size-pl;
+	font-family: $font-family-pl;
+	text-transform: none;
+	}
+}
