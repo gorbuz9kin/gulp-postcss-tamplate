@@ -14,3 +14,4 @@ Manual:
 5. Launch gulp - [ gulp ]
 
 6. STOP gulp - [ ctrl + c ]
+
